@@ -27,12 +27,17 @@ class BalanceSensor(Entity):
     @property
     def name(self):
         """Возвращает имя сенсора."""
-        return 'Internet Provider Balance'
+        return 'Баланс: Сибирские сети'
 
     @property
     def state(self):
         """Возвращает состояние сенсора."""
         return self._state
+
+    @property
+    def unit_of_measurement(self):
+        """Возвращает единицу измерения."""
+        return '₽'
 
     def update(self):
         """Обновление состояния сенсора."""
