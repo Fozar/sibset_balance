@@ -1,7 +1,7 @@
 {
   "domain": "sibset_balance",
   "name": "Sibset Balance",
-  "documentation": "",
+  "documentation": "https://github.com/Fozar/sibset_balance",
   "dependencies": [],
   "codeowners": ["Fozar"],
   "requirements": ["dnspython", "requests"],
