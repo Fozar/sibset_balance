@@ -23,5 +23,5 @@
 
 ```yaml
 sensor:
-  - platform: my_balance_sensor
+  - platform: sibset_balance
     scan_interval: 3600  # Интервал обновления в секундах
