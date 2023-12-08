@@ -14,7 +14,7 @@
 
 Если вы предпочитаете ручную установку без использования HACS:
 
-1. Скопируйте папку `my_balance_sensor` в директорию `custom_components` вашего Home Assistant.
+1. Скопируйте папку `sibset_balance` в директорию `custom_components` вашего Home Assistant.
 2. Перезагрузите Home Assistant.
 
 ## Конфигурация
